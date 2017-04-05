@@ -1,0 +1,87 @@
+body{
+	background-color: #ecf0f5;
+}
+
+.logoImg{
+	width: 45px;
+	margin: 0 1px 4px 0;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+}
+
+input, textarea, select{
+	border-radius: 5px !important;
+}
+select:hover{
+		border-radius: 5px 5px 0 0 !important;
+}
+.sectionTitle{
+	display: inline;
+}
+
+.success{
+	color: green;
+	font-weight: bold;
+}
+
+.error{
+	color: red;
+	font-weight: bold;
+	/*background-color: red;*/
+}
+
+mark{
+	background-color: yellow;
+	color: red;
+}
+
+.glyphicon-ok-sign::before{
+	color: green;
+}
+
+.glyphicon-remove-sign::before{
+	color: red;
+}
+
+.tableLogo{
+	width: 100px;
+	border: 2px solid lightgray;
+}
+
+.tableCheckbox{
+	width: 48px;
+	padding-right: 5px !important;
+}
+
+.tableCheckbox::after{
+	content: "" !important;
+}
+
+.fa-trash{
+	font-size: 1.5em;
+	padding-left: 15px;
+	vertical-align: 5%;
+}
+
+.fc-view-container{
+	padding: 12px;
+}
+
+#calendar > .fc-view-container > .fc-basic-view > table{
+	border: 1px solid lightgray !important;
+}
+
+.xui-widget-header{
+	border: 1px solid #3C8DBC !important;
+	background: none;
+	background-color: #3C8DBC !important;
+	color: #fff;
+}
+
+.direct-chat-text{
+	margin: 2px 0px 0px 55px !important;
+}
+
+.direct-chat-name{
+	font-size: 15px;
+}

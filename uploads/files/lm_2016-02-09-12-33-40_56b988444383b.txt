@@ -1,0 +1,13 @@
+user: lmhostpair
+pass:banglaDesh1971
+
+//Set the hostname of the mail server
+$mail->Host = "orange.whitelabelwebserver.com";
+//Set the SMTP port number - likely to be 25, 465 or 587
+$mail->Port = 587;
+//Whether to use SMTP authentication
+$mail->SMTPAuth = true;
+//Username to use for SMTP authentication
+$mail->Username = "rakib@alm.hostpair.com";
+//Password to use for SMTP authentication
+$mail->Password = "[;5)pPgR{_H~";

@@ -1,0 +1,64 @@
+user password change
+
+***configuration should be dynamic and database also
+
+***pagination must be done.
+
+total
+
+Data purge for data delete
+
+email notification for leave
+
+pagination
+VTqvLT)aF?yU
+
+Email template
+	Welcome/account create
+Dear {$client_name},
+
+Thank you for signing up with us. Your new account has been setup and you can now login to our client area using the details below.
+
+Email Address: {$client_email}
+Password: {$client_password}
+
+To login, visit {$whmcs_url}
+
+{$signature}
+
+
+	passreset
+
+Dear {$client_name},
+
+As you requested, your password for our client area has now been reset. Your new login details are as follows:
+
+{$whmcs_link}
+Email: {$client_email}
+Password: {$client_password}
+
+To change your password to something more memorable, after logging in go to My Details > Change Password.
+
+{$signature}
+
+	approve reject
+
+General Settins=>
+Dynamic Logo = png size = 50Kb
+Email Address as default sender
+Records to Display per page
+Maintenance Mode = Tik Mark
+Maintenance Message => Down for Maintenance (Err 3)
+We are performing maintenance on our billing system. It should be back within 2hrs.
+
+If you need support please send an email to support@hostpair.com 
+
+If you need  support please send an email to support@hostpair.com
+
+
+php curl tutorial.
+
+
+***upload picture name must be unique***
+Daily report
+Monthly Report
