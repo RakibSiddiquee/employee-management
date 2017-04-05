@@ -1,5 +1,5 @@
 #core file
-	core/init.php
+core/init.php
 
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
